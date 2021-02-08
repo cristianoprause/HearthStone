@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "e9685b83-e581-473d-913c-71a276269629",
+		"name": "HearthStone",
+		"description": "Testes do cadastro de cartas da API de HearthStone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cadastro Borrão",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Borrão\",\r\n    \"descricao\": \"Seu herói não recebe dano neste turno\",\r\n    \"ataque\": 12,\r\n    \"defesa\": 0,\r\n    \"tipo\": \"MAGIA\",\r\n    \"classe\": \"CACADOR\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/carta/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"carta",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastro Carnífice de Batalha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Borrão\",\r\n    \"descricao\": \"Seu herói não recebe dano neste turno\",\r\n    \"ataque\": 12,\r\n    \"defesa\": 0,\r\n    \"tipo\": \"MAGIA\",\r\n    \"classe\": \"CACADOR\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/carta/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"carta",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastro Pinavil Furioso",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Borrão\",\r\n    \"descricao\": \"Seu herói não recebe dano neste turno\",\r\n    \"ataque\": 12,\r\n    \"defesa\": 0,\r\n    \"tipo\": \"MAGIA\",\r\n    \"classe\": \"CACADOR\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/carta/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"carta",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cadastro Fonte de Poder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Borrão\",\r\n    \"descricao\": \"Seu herói não recebe dano neste turno\",\r\n    \"ataque\": 12,\r\n    \"defesa\": 0,\r\n    \"tipo\": \"MAGIA\",\r\n    \"classe\": \"CACADOR\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/api/v1/carta/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"carta",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta cartas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Editando borrão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta edição",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Exclusão Pinavil Furioso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta exclusão",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta por id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta por nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta por classe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consulta por tipo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste validação ataque",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Teste validação defesa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
